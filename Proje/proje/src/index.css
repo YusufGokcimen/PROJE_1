@@ -178,7 +178,7 @@ img.weather-icon {
   grid-template-rows: 0.3fr 3fr 1.5fr;
   position: relative;
   font-size: 1.2rem;
-  background-color: #ebeaea;
+  background-color: #dadada;
 }
 
 /* WEATHER */
