@@ -1,15 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-import "./MyState.css";
-
-import rainy from "./static/rainy-1.svg";
-import day from "./static/day.svg";
-
 const API_endpoint = `https://api.openweathermap.org/data/2.5/weather?`;
 const API_key = `e3a22fdbdde8394a17e89d9b2784c6f5`;
-
-// lat={lat}&lon={lon}&exclude={part}&appid={API key}`;
 
 function MyState() {
   const [latitude, setLatitude] = useState("");

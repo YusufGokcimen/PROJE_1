@@ -1,8 +1,6 @@
 import axios from "axios";
 import { useState, useEffect, useRef } from "react";
 
-import "./CurCSS.css";
-
 const karImage = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
