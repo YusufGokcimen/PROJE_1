@@ -55,15 +55,6 @@ function Cur() {
   const [status, setStatus] = useState(false);
   const [rates, setRates] = useState("");
 
-  // DÜNÜN TARİHİ
-
-  // setTimeout(async () => {
-  //   eskikur = await axios.get(
-  //     `https://api.frankfurter.app/${yesterdayDate}?amount=${amount}&from=${fromCur}&to=${toCur}`
-  //   );
-  //   console.log(eskikur);
-  // }, 1000);
-
   const data = useRef();
   let currentAmount;
 
